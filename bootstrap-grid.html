@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>bootstrap网格系统</title>
+         <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+
+        <style>
+            div {
+                text-align: center;
+                vertical-align:central;
+                background-color:lightskyblue;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3" style="background-color:lightgreen">第一列</div>
+                <div class="col-md-6 col-md-offset-3" style="background-color:lightgreen">
+                    <div class="row">
+                         <div class="col-md-12" style="background-color:lightyellow">第二列</div>
+                        <div class="col-md-3" style="background-color:lightpink; border-right:1px solid black;">第一组</div>
+                        <div class="col-md-9" style="background-color:lightpink; border-right:1px solid black;">第二组</div>
+                    </div>
+                </div>                
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">第二行</div>
+            </div>
+        </div>
+    </body>
+</html>
